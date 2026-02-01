@@ -19,6 +19,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 cmake_minimum_required(VERSION 3.22) # Min. required by Qt 6.10
+cmake_policy(SET CMP0141 NEW)
 
 project(MuseScore LANGUAGES C CXX)
 
